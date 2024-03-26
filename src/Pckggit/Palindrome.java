@@ -22,6 +22,12 @@ public class Palindrome {
 		else {
 			System.out.println(num+" is a not Palindome Number");
 		}
+		if(reverse==num) {
+			System.out.println(num+" is a Palindome Number");
+		}
+		else {
+			System.out.println(num+" is a not Palindome Number");
+		}
 
 	}
 
